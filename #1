@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+  <script>
+    'use strict';
+    var a;
+    var b;
+    function findNextSquare(a) {
+      b = (Math.sqrt(a)+1);
+      
+      if (Math.ceil(b) - b > 0) {
+        return -1;
+      } else {
+        return Math.pow(b, 2);
+      }
+    }
+    
+    alert( findNextSquare(16) );
+  </script>
+</body>
+
+</html>

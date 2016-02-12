@@ -1,21 +1,30 @@
-Создать простую функцию - валидатор пароля, на входе она получает строку и возвращает true, если все условия выполнены и false, если нет.
-Должны выполняться следующие условия:
-минимум одна буква в верхнем регистре
-минимум одна в нижнем
-минимум одно число
-должно быть минимум 8 знаков
+<!DOCTYPE html>
+<html>
 
-var pass = prompt('Введите пароль', '');
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
 
-function checkPassword(pass) {   
-var password = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,40}$/;  
-  if(pass.value.match(password)) {   
-    alert('Correct')  
-    return true;  
-  } else {   
-    alert('Wrong')  
-    return false;  
-  }  
-}
+  <body>
+    <script>
+    'use strict';
 
-alert(checkPassword(pass));
+    var pass;
+    
+    function checkPassword(pass) {   
+    var pass = prompt('Введите пароль', '');
+    var password = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$/;  
+      if(pass.match(password)) {   
+        return true;  
+      } else {   
+        return false;  
+      }  
+    }
+    
+    alert(checkPassword(pass));
+
+</script>
+  </body>
+
+</html>

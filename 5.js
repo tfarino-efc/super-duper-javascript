@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-  </head>
-
   <body>
     <script>
+    //function - password validator
+    
     'use strict';
 
     var pass;

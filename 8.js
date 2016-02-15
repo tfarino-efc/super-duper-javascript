@@ -3,6 +3,8 @@
 <script language = 'javascript'> 
 'use strict'
 
+//Помню, что использование continue/break не желательно,
+//но в моем случае нужно сразу выйти из двух циклов
 
 function uniqueElements(phrase) {
   var phrase;
@@ -31,4 +33,3 @@ console.log(uniqueElements('123454dffssssss'));
 </script> 
 <body></body> 
 </html>
-

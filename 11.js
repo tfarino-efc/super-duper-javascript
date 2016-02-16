@@ -23,7 +23,7 @@ function contains(where, what) {
   }
 }
 
-console.log(contains([4, 3, 1, 2, 5, 6], [1,2,4,3,1,2,5,6,6,5,3]));
+console.log(contains([4, 3, 1, 2, 5, 6], [1,2,3]));
 
 
 </script> 

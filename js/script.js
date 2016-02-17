@@ -58,7 +58,7 @@ setTimeout((function(){
 	logo.style.float = "left";
 	logo.style.marginRight = "100px";
 	logo.style.width = "250px";
-	logo.src = "images/header.png";
+	logo.src = "https://cloud.githubusercontent.com/assets/16285199/13123682/6490b506-d5ce-11e5-92a9-fbd7c2d0c99a.png";
 
 	//menu
 	var menuItems = [

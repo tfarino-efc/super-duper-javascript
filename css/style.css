@@ -1,0 +1,47 @@
+body {
+	font-family: Arial;
+}
+
+.menu li {
+	display: inline-block;
+	border-radius: 10px;
+	border: 2px solid #4876B0;
+	background: #5B9BD5;
+	margin-right: 5px;
+}
+
+.menu li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 50px;
+	display: block;
+}
+
+.menu li a:hover {
+	text-decoration: underline;
+}
+
+.content {
+	border: 3px solid #4D55BA;
+	border-right: 6px solid #4D55BA;
+	border-left: 6px solid #4D55BA;
+	display: flex;
+}
+
+.leftBlock ul li {
+	font-size: 20px;
+	color: #045F71;
+}
+
+.footer {
+	padding-top: 30px;
+	background: #4D55BA;
+	text-align: center;
+}
+
+#timer {
+	color: red; 
+	font-size: 20px; 
+	font-weight: bold; 
+	float:right;
+}
